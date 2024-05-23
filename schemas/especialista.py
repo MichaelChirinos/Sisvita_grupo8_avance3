@@ -12,6 +12,7 @@ class EspecialistaSchema(ma.Schema):
             'codigo_especialista',
             'especialidad',
             'colegiado'
+            'usuario'
         )
 
     usuario = fields.Nested(UsuarioSchema)
