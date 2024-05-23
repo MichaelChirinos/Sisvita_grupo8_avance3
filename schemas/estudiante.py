@@ -9,7 +9,8 @@ class EstudianteSchema(ma.Schema):
         fields = (
             'id_estudiante',
             'id_usuario',
-            'codigo_estudiante'
+            'codigo_estudiante',
+            'usuario'
         )
     usuario = fields.Nested(UsuarioSchema)
 
