@@ -11,7 +11,7 @@ class EspecialistaSchema(ma.Schema):
             'id_usuario',
             'codigo_especialista',
             'especialidad',
-            'colegiado'
+            'colegiado',
             'usuario'
         )
 
